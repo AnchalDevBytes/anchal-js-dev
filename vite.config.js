@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/anchaldevbytes.github.io/',
+  base: '/anchal-js-dev',
   build: {
     outDir: 'dist',
     rollupOptions: {
