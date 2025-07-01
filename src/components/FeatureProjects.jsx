@@ -2,6 +2,8 @@ import lekha from "../assets/images/lekha.png";
 import shopper from "../assets/images/shopper.png";
 import lnk from "../assets/images/lnk.png";
 import timekeeper from "../assets/images/timekeeper.png";
+import pocketlog from "../assets/images/pocketlog.png";
+import voicetodo from "../assets/images/voicetodo.png";
 import GrainImg from "../assets/images/grain.jpg";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 import { MdArrowOutward } from "react-icons/md";
@@ -10,36 +12,95 @@ import SectionHeader from "./SectionHeader";
 function FeatureProjects() {
   const portfolioProjects = [
     {
-      githubLink: "https://github.com/AnchalDevBytes/lekha",
-      year: "2024",
-      title: "Lekha",
+      githubLink: "https://github.com/AnchalDevBytes/Pocketlog",
+      year: "2025",
+      title: "PocketLog",
       description: [
-        { title: "full-stack blogging platform, for creating, reading and sharing blogs with anyone on internet." },
-        { title: "Authentication with JWT, allowing users to securely sign up, log in, and manage their content." },
-        { title: "Integrated a PostgreSQL database with Prisma ORM, enabling efficient management of blog content" },
+        {
+          title:
+            "Full-stack Next.js app with Google OAuth authentication, PostgreSQL database, and AI-powered ﬁnancial insights using Gemini API",
+        },
+        {
+          title:
+            "Multi-account support, custom categories with icons/colors, budget management, CSV/Excel import/export, and interactive charts for spending analysis",
+        },
       ],
-      link: "https://lekha.vercel.app/",
-      image: lekha,
+      link: "https://ai-pocketlog.vercel.app/",
+      image: pocketlog,
     },
     {
       githubLink: "https://github.com/AnchalDevBytes/timekeeper",
       year: "2024",
       title: "TimeKeeper",
       description: [
-        { title: "full-stack calendar application, enabling user for creating, updating and manage event on responsive weekly calendar view." },
-        { title: "Implement user authentication with JWT and optimised backend data handling with NeonDB, enhancing performance and reliability for event management." },
+        {
+          title:
+            "full-stack calendar application, enabling user for creating, updating and manage event on responsive weekly calendar view.",
+        },
+        {
+          title:
+            "Implement user authentication with JWT and optimised backend data handling with NeonDB, enhancing performance and reliability for event management.",
+        },
       ],
       link: "https://timekeeper-livid.vercel.app/",
       image: timekeeper,
     },
     {
+      githubLink: "https://github.com/AnchalDevBytes/voice-todo-assignment",
+      year: "2025",
+      title: "Voice-todo",
+      description: [
+        {
+          title:
+            "A full-stack note-taking app with voice-to-text, image uploads, and JWT auth using Next.js and MongoDB.",
+        },
+        {
+          title:
+            "Enabled real-time updates, search/ﬁlter/sort, and Cloudinary integration for media handling.",
+        },
+      ],
+      link: "https://voice-todo-assignment.vercel.app/",
+      image: voicetodo,
+    },
+    {
+      githubLink: "https://github.com/AnchalDevBytes/lekha",
+      year: "2024",
+      title: "Lekha",
+      description: [
+        {
+          title:
+            "full-stack blogging platform, for creating, reading and sharing blogs with anyone on internet.",
+        },
+        {
+          title:
+            "Authentication with JWT, allowing users to securely sign up, log in, and manage their content.",
+        },
+        {
+          title:
+            "Integrated a PostgreSQL database with Prisma ORM, enabling efficient management of blog content",
+        },
+      ],
+      link: "https://lekha.vercel.app/",
+      image: lekha,
+    },
+
+    {
       githubLink: "https://github.com/AnchalDevBytes/shopper",
       year: "2024",
       title: "Shopper",
       description: [
-        { title: "A fully functional e-commerce app, Developed the complete Frontend E-commerce System with Next.js" },
-        { title: "Integrated the dummy Stripe Payment System with intuitive UI and state management using RTK" },
-        { title: "features like wishlist, recommendation system based on current selected output, filtering option based on price, rating, brand and category" },
+        {
+          title:
+            "A fully functional e-commerce app, Developed the complete Frontend E-commerce System with Next.js",
+        },
+        {
+          title:
+            "Integrated the dummy Stripe Payment System with intuitive UI and state management using RTK",
+        },
+        {
+          title:
+            "features like wishlist, recommendation system based on current selected output, filtering option based on price, rating, brand and category",
+        },
       ],
       link: "https://shopperproject.vercel.app/",
       image: shopper,
@@ -49,9 +110,18 @@ function FeatureProjects() {
       year: "2024",
       title: "LNK",
       description: [
-        { title: "Simple and easy to use link shortner app developed for hassle-free usage" },
-        { title: "minimalistic and user-friendly UI for better understanding and flow of work" },
-        { title: "Visithistory with Date of visits and no. of clicks on particular link is provided on dashboard" },
+        {
+          title:
+            "Simple and easy to use link shortner app developed for hassle-free usage",
+        },
+        {
+          title:
+            "minimalistic and user-friendly UI for better understanding and flow of work",
+        },
+        {
+          title:
+            "Visithistory with Date of visits and no. of clicks on particular link is provided on dashboard",
+        },
       ],
       link: "https://lnk-kappa.vercel.app/",
       image: lnk,
@@ -90,7 +160,9 @@ function FeatureProjects() {
               <div className="md:grid md:grid-cols-2 lg:gap-16">
                 <div className="md:pb-12 lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent inline-flex font-bold uppercase tracking-normal text-sm  gap-1">
-                    <a href={project.githubLink} target="_blank">GithubLink</a>
+                    <a href={project.githubLink} target="_blank">
+                      GithubLink
+                    </a>
                     <span>&bull;</span>
                     <span>{project.year}</span>
                   </div>
