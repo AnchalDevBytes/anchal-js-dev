@@ -45,23 +45,23 @@ function FeatureProjects() {
       link: "https://timekeeper-livid.vercel.app/",
       image: timekeeper,
     },
-    {
-      githubLink: "https://github.com/AnchalDevBytes/voice-todo-assignment",
-      year: "2025",
-      title: "Voice-todo",
-      description: [
-        {
-          title:
-            "A full-stack note-taking app with voice-to-text, image uploads, and JWT auth using Next.js and MongoDB.",
-        },
-        {
-          title:
-            "Enabled real-time updates, search/ﬁlter/sort, and Cloudinary integration for media handling.",
-        },
-      ],
-      link: "https://voice-todo-assignment.vercel.app/",
-      image: voicetodo,
-    },
+    // {
+    //   githubLink: "https://github.com/AnchalDevBytes/voice-todo-assignment",
+    //   year: "2025",
+    //   title: "Voice-todo",
+    //   description: [
+    //     {
+    //       title:
+    //         "A full-stack note-taking app with voice-to-text, image uploads, and JWT auth using Next.js and MongoDB.",
+    //     },
+    //     {
+    //       title:
+    //         "Enabled real-time updates, search/ﬁlter/sort, and Cloudinary integration for media handling.",
+    //     },
+    //   ],
+    //   link: "https://voice-todo-assignment.vercel.app/",
+    //   image: voicetodo,
+    // },
     {
       githubLink: "https://github.com/AnchalDevBytes/lekha",
       year: "2024",
@@ -105,27 +105,27 @@ function FeatureProjects() {
       link: "https://shopperproject.vercel.app/",
       image: shopper,
     },
-    {
-      githubLink: "https://github.com/AnchalDevBytes/lnk",
-      year: "2024",
-      title: "LNK",
-      description: [
-        {
-          title:
-            "Simple and easy to use link shortner app developed for hassle-free usage",
-        },
-        {
-          title:
-            "minimalistic and user-friendly UI for better understanding and flow of work",
-        },
-        {
-          title:
-            "Visithistory with Date of visits and no. of clicks on particular link is provided on dashboard",
-        },
-      ],
-      link: "https://lnk-kappa.vercel.app/",
-      image: lnk,
-    },
+    // {
+    //   githubLink: "https://github.com/AnchalDevBytes/lnk",
+    //   year: "2024",
+    //   title: "LNK",
+    //   description: [
+    //     {
+    //       title:
+    //         "Simple and easy to use link shortner app developed for hassle-free usage",
+    //     },
+    //     {
+    //       title:
+    //         "minimalistic and user-friendly UI for better understanding and flow of work",
+    //     },
+    //     {
+    //       title:
+    //         "Visithistory with Date of visits and no. of clicks on particular link is provided on dashboard",
+    //     },
+    //   ],
+    //   link: "https://lnk-kappa.vercel.app/",
+    //   image: lnk,
+    // },
   ];
 
   return (

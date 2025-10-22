@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import FeatureProjects from "./components/FeatureProjects";
+import ExperienceSection from "./components/ExperienceSection";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <ExperienceSection />
         <FeatureProjects />
         <About />
         <Contact />
@@ -21,4 +23,3 @@ function App() {
 }
 
 export default App;
-
