@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Header() {
   const [activeLink, setActiveLink] = useState("home");
-  const navItems = ["Home", "Experience", "Project", "About", "Contact"];
+  const navItems = ["Home", "Experience", "OpenSource", "Project", "About", "Contact"];
 
   const handleClick = (link) => {
     setActiveLink(link);

@@ -79,11 +79,11 @@ function Hero() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2 }}
             viewport={{ once: true }}
-            href="#project"
-            className="flex items-center gap-2 border border-white/15 px-4 py-2 rounded-xl text-white hover:bg-white/10 duration-200"
-            aria-label="Explore My Projects"
+            href="#experience"
+            className="flex items-center gap-2 border w-44 border-white/15 px-4 py-2 rounded-xl text-white hover:bg-white/10 duration-200"
+            aria-label="Explore"
           >
-            <span>Explore My Projects</span>
+            <span>Explore</span>
             <span className="animate-bounce" aria-hidden="true">
               <FaArrowDown size={18} />
             </span>

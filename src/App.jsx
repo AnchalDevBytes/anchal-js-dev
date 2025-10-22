@@ -5,6 +5,7 @@ import ExperienceSection from "./components/ExperienceSection";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import OpenSourceContributions from "./components/OpenSourceContributions";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <ExperienceSection />
+        <OpenSourceContributions />
         <FeatureProjects />
         <About />
         <Contact />
